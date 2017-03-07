@@ -1,5 +1,5 @@
 # localbox
-A simple Local (LAN) folder sync program with a little "Dropbox" style UX <br>
+A Local (LAN) folder sync program with a "Dropbox" style UX <br>
 Can also be used over the internet with tweaks to hosts file. <br>
 
 # How to use
