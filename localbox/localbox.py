@@ -1,28 +1,28 @@
 '''
 ## LOCALBOX 1.0: The LAN "Dropbox"
 ##
-## WHAT: It is a network based P2P folder syncing client. 
-##       It works with any folder, just add the localbox folder, edit the hosts file and run
-##       It currently only works with files. Folders won't be synced. Zip a folder first to transfer it.
-##       Can easily be extended to working over the internet, just change the hosts.txt file to the other computers Public IP Address.
-##       
-## WHY: I was frustrated with always having to find and use a flash drive to transfer files between
-##      computers at home. Sometimes I wanted to transfer HUGE (10GB+) files. Dropbox was an option but given the country I live in, internet is ridiculously
-##      expensive, unreliable and slow. Wifi was always there even though internet was unpredictable so
-##      I thought, why not use Wifi to transfer files locally with the convenience of dropbox like functionality and speed of lan?
-##      
+## WHAT:
+## It is a network based P2P folder syncing client. 
+## It works with any folder, just add the localbox folder, edit the hosts file and run
+## It currently only works with files. Folders won't be synced. Zip a folder first to transfer it.
+## 
+## WHY:
+## I wanted a fast way to tranfer HUGE files between two computers connected to the same wifi, but with a dropbox style UX
+## i.e. a magic folder i could just put things in that syncs across all computers
 ##
-## HOW: Just place the "localbox" folder into any folder you want to sync..
-##      IMPORTANT: I recommend using a brand new folders because in an effort to sync directories, it might end up deleting some files
-##      Before running the localbox.py file add the peers IP and Port to the first line,
-##      in the hosts.txt file in the format, HOST_IP(space)PORT e.g. 127.0.0.1 101.
-##      Localbox uses port 100 by default for the server thread (that others can connect to) but you can change it to whatever you want
+## HOW TO USE IT: 
+## Just place the "localbox" folder into any folder you want to sync..
+##
+## IMPORTANT: 
+## I recommend using a brand new folders because in an effort to sync directories, it might end up deleting some files
+## Before running the localbox.py file add the peers IP and Port to the first line,
+## in the hosts.txt file in the format, HOST_IP(space)PORT e.g. 127.0.0.1 101.
+## Localbox uses port 100 by default for the server thread (that others can connect to) but you can change it to whatever you want
 ##      
-##      
-
-## POSSIBLE IMPROVEMENTS: Add folder sync
-##               To get a full Dropbox experience (more than two nodes) on LAN, if you have a huge local network,
-##               you could spin up a separate server to handle multiple clients without a drastic change to the code              
+## POSSIBLE IMPROVEMENTS: 
+## Add folder sync
+## To get a full Dropbox experience (more than two nodes) on LAN, if you have a huge local network,
+## you could spin up a separate server to handle multiple clients without a drastic change to the code              
 ##
 ## Author: Shimpano Mutangama
 
